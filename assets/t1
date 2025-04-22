@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Html Tags</title>
+   </head>
+   <body>
+      <div><br><hr><hr><h2 style="text-align: center;">HTML TAGS</h2>
+      <hr><hr></div>
+      <br>
+      <a href="https://www.google.com">Click Me...</a><br><br>
+      <button type="button" >This is a button</button>
+      <h1>h1</h1>
+      <h2>h2</h2>
+      <h3>h3</h3>
+      <h4>h4</h4>
+      <h5>h5</h5>
+      <h6>h6</h6>
+   
+      <i>I tag</i><br>
+      <iframe src="https://www.youtube.com/embed/Nu2pLnm450o" title="youtube"></iframe>
+      <img src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg"/><br>
+      <br>
+      <label for="pass">Password: </label>
+      <input type="password" placeholder="Enter your password" id="pass"/>
+      <br>
+      <br>
+      <table border="2">
+         <tr>
+            <th>S.NO</th>
+            <th>Names</th>
+         </tr>
+         <tr>
+            <td>1.</td>
+            <td>Ram</td>
+         </tr>
+      </table>
+      <br>
+      <div>
+         <p>This is Paragraph Tag</p>
+      </div>
+
+   </body>
+</html>

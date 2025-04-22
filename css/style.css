@@ -1,0 +1,68 @@
+
+body{
+   background-image: url('../assets/darkbackground.jpg');
+   background-size:cover;
+}
+
+/* style for label */
+label{
+   color: #E28A42;
+   font-size: 17px;
+}
+
+form{
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+}
+
+/* styel for input box */
+input{
+   width: 200px;
+   height: 20px;
+   margin: 10px;
+   font-size: 15px;
+   background-color: black;
+   border: 1px solid whitesmoke;
+   padding: 15px;
+   color: whitesmoke;
+   border-radius: 15px;
+   transition: all 0.5s ease;
+}
+
+input:focus{
+   outline: none;
+   color: #24E7E1;
+   background-color:#0c0c0c;
+   border: 1px solid #24E7E1;
+   box-shadow: 0 0 5px #24E7E1;
+}
+
+/* style for heading */
+.heading{
+   color: #24E7E1;
+   text-align: center;
+   margin-top: 10%;
+   margin-bottom: 6%;
+}
+
+/* style for button */
+#submitbutton{
+   color: #24E7E1;
+   text-align: center;
+   font-size: 15px;
+   background-color: black;
+   width: 80px;
+   margin-top: 20px;
+   padding: 10px;
+   border: 1px solid whitesmoke;
+   border-radius: 10px;
+   transition: all 0.5s ease;
+}
+
+#submitbutton:hover, #submitbutton:focus{
+   background-color: #0c0c0c;
+   color: #24E7E1;
+   border: 1px solid #24E7E1;
+   box-shadow: 0 0 10px #24E7E1;
+}
