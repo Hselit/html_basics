@@ -1,7 +1,108 @@
+.container{
+   background-color: darkgray;
+   display: flex;
+   padding: 5px;
+   flex-direction: column;
+}
 
-body{
+.row1{
+   display: flex;
+   margin: 5px;
+   justify-content: flex-start;
+}
+
+.row2{
+   display: flex;
+   margin: 5px;
+   justify-content: center;
+}
+
+.row3{
+   display: flex;
+   margin: 5px;
+   justify-content: flex-end;
+}
+
+.topdiv{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 5px;
+   background-color: aliceblue;
+}
+
+h1{
+   margin: 5px;
+   padding: 12px;
+   background-color: #eeb688;
+}
+
+.middlediv{
+   background-color: aliceblue;
+   margin-bottom: 5px;
+}
+
+.row21{
+   display: flex;
+   justify-content: space-between;
+}
+
+.row22{
+   display: flex;
+   justify-content: space-around;
+}
+
+.row23{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.bottomdiv{
+   display: grid;
+   gap: 5px;
+   overflow: hidden;
+   grid-template-columns: 30% 70%;
+}
+
+.row31{
+   display: grid;
+   background-color: rgb(211, 33, 33);
+   justify-content: center;
+   align-items: center;
+}
+
+.row32{
+   background-color: purple;
+   height: fit-content;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+}
+
+.row321{
+   background-color: aquamarine;
+   margin: 10px;
+   display: grid;
+   align-items: center;
+   padding: 5px;
+}
+
+.row322{
+   display: grid;
+   text-align: center;
+   margin-left: 5px;
+   grid-template-columns: repeat(5,100px);
+   column-gap: 80px;
+}
+
+
+
+
+
+
+
+.formcontent{
    background-image: url('../assets/darkbackground.jpg');
    background-size:cover;
+   display: none;
 }
 
 /* style for label */
