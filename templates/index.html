@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="icon" href="./assets/html5.png" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" href="#">Today's Engagement</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Future Engagement</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Total Engagement</a></li>
+      </ul>
+      <div
+        class="tab-content shadow-lg bg-body-tertiary rounded m-5 px-4 py-3 border-primary border-start border-3"
+      >
+        <div class="tab-pane d-flex justify-content-between">
+          <div>
+            <p>ID:217</p>
+          </div>
+          <div>
+            <button class="btn btn-outline-primary">Live in Office</button>
+            <button class="btn btn-outline-warning">Awaiting TTL Approval</button>
+          </div>
+        </div>
+        <p class="fw-bold m-0">Unbranded Speaker Presentation +2</p>
+        <p class="text-secondary m-0">
+          SHIONOGI<span class="text-success p-2 fs-2">&gt;</span
+          >Fetroja<sup>®</sup>(cefiderocol)<span class="text-danger"><sup>PI</sup></span>
+        </p>
+        <hr />
+        <div class="d-flex justify-content-between">
+          <div>
+            <p class="m-0"><b>EO : </b>Sean Gully</p>
+            <p class="m-0"><b>Speaker : </b>Malai Appan, Christopher Cooper</p>
+            <p class="text-success m-0">Attendees Invited : 1</p>
+            <p><strong>Attendees Confirmed :</strong> 0</p>
+          </div>
+          <div>
+            <button class="btn btn-success px-4">Time Zone Review</button>
+            <p class="m-0">May 6,2025 <br />6:00 AM ET</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- entire container -->
+    <div class="containerr">
+      <!-- top container -->
+      <div class="topdiv">
+        <div class="row1">
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+        </div>
+        <div class="row2">
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+        </div>
+        <div class="row3">
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+        </div>
+      </div>
+      <!-- middle container -->
+      <div class="middlediv">
+        <div class="row21">
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+        </div>
+        <div class="row22">
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+        </div>
+        <div class="row23">
+          <h1>1</h1>
+          <h1>2</h1>
+          <h1>3</h1>
+        </div>
+      </div>
+      <!-- bottom container -->
+      <div class="bottomdiv">
+        <div class="row31">left</div>
+        <div class="row32">
+          <div class="row321">layout</div>
+          <div class="row322">
+            <h1>1</h1>
+            <h1>2</h1>
+            <h1>3</h1>
+            <h1>4</h1>
+            <h1>5</h1>
+            <h1>6</h1>
+            <h1>7</h1>
+            <h1>8</h1>
+            <h1>9</h1>
+            <h1>10</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hidden contents -->
+    <div class="formcontent">
+      <!-- nav bar -->
+      <div id="navbar">
+        <!-- logo icon in nav bar -->
+        <div id="logocont">
+          <img src="./assets/qr-code.png" width="50px" height="50px" />
+        </div>
+        <!-- nav links -->
+        <div id="navlinkcont">
+          <ul>
+            <li></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <!-- nav search -->
+        <div id="searchcont">
+          <input class="navinput" type="text" placeholder="Search" />
+          <img id="searchicon" src="./assets/search.png" />
+        </div>
+        <!-- nav settings -->
+        <div id="settingcont">
+          <img src="./assets/settings.png" width="50px" height="50px" />
+          <span id="settingcount">1</span>
+        </div>
+      </div>
+
+      <div>
+        <!-- Header -->
+        <h2 class="heading">Login Form</h2>
+        <h2 class="fixed_heading">Welcome</h2>
+        <!-- form -->
+        <form>
+          <!-- Username Field -->
+          <label for="username">Username :</label>
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter the username"
+            id="username"
+            required
+          />
+          <br />
+          <!-- Password Field -->
+          <label for="password">Password :</label>
+          <input
+            class="input"
+            type="password"
+            placeholder="Enter the password"
+            id="password"
+            required
+          />
+          <br />
+          <!-- Submit Button -->
+          <button type="submit" id="submitbutton" onclick="login()">Submit</button>
+        </form>
+      </div>
+
+      <!-- body content -->
+      <h2 class="paragraph">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, distinctio aspernatur
+        ducimus consequatur perferendis debitis rerum iste quos. Molestiae molestias laudantium
+        vitae possimus corporis praesentium suscipit enim nostrum delectus adipisci?Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Minima ipsa esse temporibus earum sequi fuga
+        praesentium vitae quasi iure expedita. Voluptas rem ut quod nisi similique reprehenderit
+        nesciunt assumenda optio?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Provident, tenetur! Dignissimos error blanditiis facere quae tempore iusto, inventore alias
+        quasi a recusandae nisi nostrum tenetur, soluta, sed autem eum obcaecati?Lorem ipsum dolor,
+        sit amet consectetur adipisicing elit. Nihil facilis nulla, maxime mollitia accusantium ut
+        eaque veritatis repudiandae praesentium ipsam, impedit voluptatem, aperiam quisquam?
+        Officiis consequuntur necessitatibus iusto consectetur est.lorLorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Nisi, distinctio aspernatur ducimus consequatur perferendis
+        debitis rerum iste quos. Molestiae molestias laudantium vitae possimus corporis praesentium
+        suscipit enim nostrum delectus adipisci?Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Minima ipsa esse temporibus earum sequi fuga praesentium vitae quasi iure expedita.
+        Voluptas rem ut quod nisi similique reprehenderit nesciunt assumenda optio?Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Provident, tenetur! Dignissimos error
+        blanditiis facere quae tempore iusto, inventore alias quasi a recusandae nisi nostrum
+        tenetur, soluta, sed autem eum obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Nihil facilis nulla, maxime mollitia accusantium ut eaque veritatis repudiandae
+        praesentium ipsam, impedit voluptatem, aperiam quisquam? Officiis consequuntur
+        necessitatibus iusto consectetur est.lorLorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Nisi, distinctio aspernatur ducimus consequatur perferendis debitis rerum iste quos.
+        Molestiae molestias laudantium vitae possimus corporis praesentium suscipit enim nostrum
+        delectus adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa esse
+        temporibus earum sequi fuga praesentium vitae quasi iure expedita. Voluptas rem ut quod nisi
+        similique reprehenderit nesciunt assumenda optio?Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Provident, tenetur! Dignissimos error blanditiis facere quae tempore
+        iusto, inventore alias quasi a recusandae nisi nostrum tenetur, soluta, sed autem eum
+        obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil facilis nulla,
+        maxime mollitia accusantium ut eaque veritatis repudiandae praesentium ipsam, impedit
+        voluptatem, aperiam quisquam? Officiis consequuntur necessitatibus iusto consectetur
+        est.lorLorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, distinctio aspernatur
+        ducimus consequatur perferendis debitis rerum iste quos. Molestiae molestias laudantium
+        vitae possimus corporis praesentium suscipit enim nostrum delectus adipisci?Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Minima ipsa esse temporibus earum sequi fuga
+        praesentium vitae quasi iure expedita. Voluptas rem ut quod nisi similique reprehenderit
+        nesciunt assumenda optio?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Provident, tenetur! Dignissimos error blanditiis facere quae tempore iusto, inventore alias
+        quasi a recusandae nisi nostrum tenetur, soluta, sed autem eum obcaecati?Lorem ipsum dolor,
+        sit amet consectetur adipisicing elit. Nihil facilis nulla, maxime mollitia accusantium ut
+        eaque veritatis repudiandae praesentium ipsam, impedit voluptatem, aperiam quisquam?
+        Officiis consequuntur necessitatibus iusto consectetur est.lor
+      </h2>
+    </div>
+
+    <!-- <script src="./js/script.js"></script> -->
+  </body>
+</html>

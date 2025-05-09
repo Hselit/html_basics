@@ -1,223 +1,369 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Login Page</title>
+    <!-- Header Section -->
+    <title>HTML Page</title>
+    <!-- Bootstrap -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- External CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- <link rel="icon" href="./assets/html5.png" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <div class="container">
-      <ul class="nav nav-tabs">
-        <li class="nav-item"><a class="nav-link active" href="#">Today's Engagement</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Future Engagement</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Total Engagement</a></li>
-      </ul>
-      <div
-        class="tab-content shadow-lg bg-body-tertiary rounded m-5 px-4 py-3 border-primary border-start border-3"
-      >
-        <div class="tab-pane d-flex justify-content-between">
-          <div>
-            <p>ID:217</p>
-          </div>
-          <div>
-            <button class="btn btn-outline-primary">Live in Office</button>
-            <button class="btn btn-outline-warning">Awaiting TTL Approval</button>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2 fw-bold"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-        <p class="fw-bold m-0">Unbranded Speaker Presentation +2</p>
-        <p class="text-secondary m-0">
-          SHIONOGI<span class="text-success p-2 fs-2">&gt;</span
-          >Fetroja<sup>®</sup>(cefiderocol)<span class="text-danger"><sup>PI</sup></span>
-        </p>
-        <hr />
-        <div class="d-flex justify-content-between">
-          <div>
-            <p class="m-0"><b>EO : </b>Sean Gully</p>
-            <p class="m-0"><b>Speaker : </b>Malai Appan, Christopher Cooper</p>
-            <p class="text-success m-0">Attendees Invited : 1</p>
-            <p><strong>Attendees Confirmed :</strong> 0</p>
-          </div>
-          <div>
-            <button class="btn btn-success px-4">Time Zone Review</button>
-            <p class="m-0">May 6,2025 <br />6:00 AM ET</p>
-          </div>
-        </div>
-      </div>
-    </div>
+      </nav>
 
-    <!-- entire container -->
-    <div class="containerr">
-      <!-- top container -->
-      <div class="topdiv">
-        <div class="row1">
-          <h1>1</h1>
-          <h1>2</h1>
-          <h1>3</h1>
+      <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
+        <!--  Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-        <div class="row2">
-          <h1>1</h1>
-          <h1>2</h1>
-          <h1>3</h1>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 50vh; background-color: #1c1c1c"
+            >
+              <div class="text-center text-white">
+                <h2 class="text-danger">Example Heading 1</h2>
+                <h5>Hiii.</h5>
+                <button class="btn btn-primary mt-3">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 50vh; background-color: #2a2a2a"
+            >
+              <div class="text-center text-white">
+                <h2>Example Heading 2</h2>
+                <h5>Hello.</h5>
+                <button class="btn btn-primary mt-3">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 50vh; background-color: #333"
+            >
+              <div class="text-center text-white">
+                <h2>Example Heading 3</h2>
+                <h5>Byeee.</h5>
+                <button class="btn btn-primary mt-3">Contact Us</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row3">
-          <h1>1</h1>
-          <h1>2</h1>
-          <h1>3</h1>
-        </div>
+
+        <!--  Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <!-- middle container -->
-      <div class="middlediv">
-        <div class="row21">
-          <h1>1</h1>
-          <h1>2</h1>
-          <h1>3</h1>
+
+      <div class="body d-flex flex-column justify-content-center m-5">
+        <div class="card-container d-flex justify-content-center m-5">
+          <div class="card me-5" style="width: 50vh">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center"
+              style="width: 50vh; height: 40vh; background-color: #2a2a2a"
+            >
+              <h2 class="text-white">card 1</h2>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque eum est nulla
+                dignissimos eos modi deleniti, hic mollitia. Magni dolores odio commodi dolorum
+                assumenda est suscipit! Ipsam, autem nemo!
+              </p>
+              <div class="d-flex justify-content-between">
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark" onclick="showmodel()">View</button>
+                  <button class="btn btn-outline-dark">Edit</button>
+                </div>
+                <p class="badge bg-secondary">9 mins</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 2 -->
+
+          <div class="card me-5" style="width: 50vh">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center"
+              style="width: 50vh; height: 40vh; background-color: #2a2a2a"
+            >
+              <h2 class="text-white text-center mt-5">card 2</h2>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque eum est nulla
+                dignissimos eos modi deleniti, hic mollitia. Magni dolores odio commodi dolorum
+                assumenda est suscipit! Ipsam, autem nemo!
+              </p>
+              <div class="d-flex justify-content-between">
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark viewbutton" onclick="showmodel()">
+                    View
+                  </button>
+                  <button class="btn btn-outline-dark">Edit</button>
+                </div>
+                <p class="badge bg-secondary">9 mins</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card 3 -->
+
+          <div class="card me-5" style="width: 50vh">
+            <div
+              class="card-img-top d-flex justify-content-center align-items-center"
+              style="width: 50vh; height: 40vh; background-color: #2a2a2a"
+            >
+              <h2 class="text-white text-center mt-5">card 3</h2>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque eum est nulla
+                dignissimos eos modi deleniti, hic mollitia. Magni dolores odio commodi dolorum
+                assumenda est suscipit! Ipsam, autem nemo!
+              </p>
+              <div class="d-flex justify-content-between">
+                <div class="btn-group">
+                  <button class="btn btn-outline-dark" id="viewbutton" onclick="showmodel()">
+                    View
+                  </button>
+                  <button class="btn btn-outline-dark">Edit</button>
+                </div>
+                <p class="badge bg-secondary">9 mins</p>
+              </div>
+            </div>
+          </div>
+          <!-- end  -->
         </div>
-        <div class="row22">
-          <h1>1</h1>
-          <h1>2</h1>
-          <h1>3</h1>
+
+        <div
+          class="accordion ms-5 justify-content-center"
+          style="width: 160vh"
+          id="accordionExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Accordion Item #1
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default,
+                until the collapse plugin adds the appropriate classes that we use to style each
+                element. These classes control the overall appearance, as well as the showing and
+                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                our default variables. It's also worth noting that just about any HTML can go within
+                the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Accordion Item #2
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                until the collapse plugin adds the appropriate classes that we use to style each
+                element. These classes control the overall appearance, as well as the showing and
+                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                our default variables. It's also worth noting that just about any HTML can go within
+                the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed bg-dark text-white"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Accordion Item #3
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                until the collapse plugin adds the appropriate classes that we use to style each
+                element. These classes control the overall appearance, as well as the showing and
+                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                our default variables. It's also worth noting that just about any HTML can go within
+                the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row23">
-          <h1>1</h1>
-          <h1>2</h1>
-          <h1>3</h1>
-        </div>
-      </div>
-      <!-- bottom container -->
-      <div class="bottomdiv">
-        <div class="row31">left</div>
-        <div class="row32">
-          <div class="row321">layout</div>
-          <div class="row322">
-            <h1>1</h1>
-            <h1>2</h1>
-            <h1>3</h1>
-            <h1>4</h1>
-            <h1>5</h1>
-            <h1>6</h1>
-            <h1>7</h1>
-            <h1>8</h1>
-            <h1>9</h1>
-            <h1>10</h1>
+
+        <div class="d-flex justify-content-between mt-5 mx-5 pe-5">
+          <div>
+            <p>
+              © Bootstrap <span>&#183;</span> <strong class="text-primary"> Privacy </strong
+              ><span>&#183;</span><strong class="text-primary"> Terms </strong>
+            </p>
+          </div>
+          <div>
+            <p class="text-primary fw-bold">Back to Top</p>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- hidden contents -->
-    <div class="formcontent">
-      <!-- nav bar -->
-      <div id="navbar">
-        <!-- logo icon in nav bar -->
-        <div id="logocont">
-          <img src="./assets/qr-code.png" width="50px" height="50px" />
+      <div class="modal" id="modell" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
         </div>
-        <!-- nav links -->
-        <div id="navlinkcont">
-          <ul>
-            <li></li>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
+      </div>
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+          <ul class="navbar-nav ml-0">
+            <li class="nav-item"><a class="nav-link active text-light" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link text-light" href="#">About Us</a></li>
           </ul>
+          <form class="d-flex justify-content-between">
+            <input type="search" placeholder="Search" class="form-control" />
+            <button class="btn btn-outline-danger ml-5">Search</button>
+          </form>
         </div>
-        <!-- nav search -->
-        <div id="searchcont">
-          <input class="navinput" type="text" placeholder="Search" />
-          <img id="searchicon" src="./assets/search.png" />
-        </div>
-        <!-- nav settings -->
-        <div id="settingcont">
-          <img src="./assets/settings.png" width="50px" height="50px" />
-          <span id="settingcount">1</span>
-        </div>
-      </div>
-
-      <div>
-        <!-- Header -->
-        <h2 class="heading">Login Form</h2>
-        <h2 class="fixed_heading">Welcome</h2>
-        <!-- form -->
-        <form>
-          <!-- Username Field -->
-          <label for="username">Username :</label>
-          <input
-            class="input"
-            type="text"
-            placeholder="Enter the username"
-            id="username"
-            required
-          />
-          <br />
-          <!-- Password Field -->
-          <label for="password">Password :</label>
-          <input
-            class="input"
-            type="password"
-            placeholder="Enter the password"
-            id="password"
-            required
-          />
-          <br />
-          <!-- Submit Button -->
-          <button type="submit" id="submitbutton" onclick="login()">Submit</button>
-        </form>
-      </div>
-
-      <!-- body content -->
-      <h2 class="paragraph">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, distinctio aspernatur
-        ducimus consequatur perferendis debitis rerum iste quos. Molestiae molestias laudantium
-        vitae possimus corporis praesentium suscipit enim nostrum delectus adipisci?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Minima ipsa esse temporibus earum sequi fuga
-        praesentium vitae quasi iure expedita. Voluptas rem ut quod nisi similique reprehenderit
-        nesciunt assumenda optio?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Provident, tenetur! Dignissimos error blanditiis facere quae tempore iusto, inventore alias
-        quasi a recusandae nisi nostrum tenetur, soluta, sed autem eum obcaecati?Lorem ipsum dolor,
-        sit amet consectetur adipisicing elit. Nihil facilis nulla, maxime mollitia accusantium ut
-        eaque veritatis repudiandae praesentium ipsam, impedit voluptatem, aperiam quisquam?
-        Officiis consequuntur necessitatibus iusto consectetur est.lorLorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Nisi, distinctio aspernatur ducimus consequatur perferendis
-        debitis rerum iste quos. Molestiae molestias laudantium vitae possimus corporis praesentium
-        suscipit enim nostrum delectus adipisci?Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Minima ipsa esse temporibus earum sequi fuga praesentium vitae quasi iure expedita.
-        Voluptas rem ut quod nisi similique reprehenderit nesciunt assumenda optio?Lorem ipsum,
-        dolor sit amet consectetur adipisicing elit. Provident, tenetur! Dignissimos error
-        blanditiis facere quae tempore iusto, inventore alias quasi a recusandae nisi nostrum
-        tenetur, soluta, sed autem eum obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Nihil facilis nulla, maxime mollitia accusantium ut eaque veritatis repudiandae
-        praesentium ipsam, impedit voluptatem, aperiam quisquam? Officiis consequuntur
-        necessitatibus iusto consectetur est.lorLorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Nisi, distinctio aspernatur ducimus consequatur perferendis debitis rerum iste quos.
-        Molestiae molestias laudantium vitae possimus corporis praesentium suscipit enim nostrum
-        delectus adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa esse
-        temporibus earum sequi fuga praesentium vitae quasi iure expedita. Voluptas rem ut quod nisi
-        similique reprehenderit nesciunt assumenda optio?Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Provident, tenetur! Dignissimos error blanditiis facere quae tempore
-        iusto, inventore alias quasi a recusandae nisi nostrum tenetur, soluta, sed autem eum
-        obcaecati?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil facilis nulla,
-        maxime mollitia accusantium ut eaque veritatis repudiandae praesentium ipsam, impedit
-        voluptatem, aperiam quisquam? Officiis consequuntur necessitatibus iusto consectetur
-        est.lorLorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, distinctio aspernatur
-        ducimus consequatur perferendis debitis rerum iste quos. Molestiae molestias laudantium
-        vitae possimus corporis praesentium suscipit enim nostrum delectus adipisci?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Minima ipsa esse temporibus earum sequi fuga
-        praesentium vitae quasi iure expedita. Voluptas rem ut quod nisi similique reprehenderit
-        nesciunt assumenda optio?Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Provident, tenetur! Dignissimos error blanditiis facere quae tempore iusto, inventore alias
-        quasi a recusandae nisi nostrum tenetur, soluta, sed autem eum obcaecati?Lorem ipsum dolor,
-        sit amet consectetur adipisicing elit. Nihil facilis nulla, maxime mollitia accusantium ut
-        eaque veritatis repudiandae praesentium ipsam, impedit voluptatem, aperiam quisquam?
-        Officiis consequuntur necessitatibus iusto consectetur est.lor
-      </h2>
+      </nav> -->
+      <script src="./js/script.js"></script>
     </div>
-
-    <!-- <script src="./js/script.js"></script> -->
   </body>
 </html>
