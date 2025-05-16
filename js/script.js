@@ -9,3 +9,7 @@ function showmodel() {
   const modalInstance = new bootstrap.Modal(modalElement);
   modalInstance.show();
 }
+
+function sayHI() {
+  document.write("HI");
+}
